@@ -9,9 +9,9 @@ const Products = () => {
       <br />
       <h1 className="font-bold text-2xl text-blue-950">NVC Training Center</h1>
       <br />
-      <p>Address: 90 Tesa Rd,Mueang,Nakhon Pathom</p>
-      <p>Tel: 032-252790</p>
-      <p>E-mail: admin@nvctrainingceter.com</p>
+      <p><b>Address: </b>90 Tesa Rd,Mueang,Nakhon Pathom</p>
+      <p><b>Tel:</b> 032-252790</p>
+      <p><b>E-mail:</b> admin@nvctrainingceter.com</p>
     </Layout>
   )
 }
