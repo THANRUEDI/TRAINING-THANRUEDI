@@ -4,11 +4,12 @@ import Layout from '../components/Layout';
 const Products = () => {
   return (
     <Layout>
-      <h1 className="font-bold text-4xl text-blue-950">Products</h1>
+      <h1 className="font-bold text-4xl text-blue-950">ติดต่อ</h1>
       <hr />
-      <p className="mt-8 mb-20 text-blue-950">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta accusantium adipisci magnam in nesciunt suscipit sed doloribus vero rerum asperiores distinctio corrupti quisquam fuga dolore, tempora ad labore deserunt perferendis?
-      </p>
+      <h1 className="font-bold text-2xl text-blue-950">NVC Training Center</h1>
+      <p>Address: 90 Tesa Rd,Mueang,Nakhon Pathom</p>
+      <p>Tel: 032-252790</p>
+      <p>E-mail: admin@nvctrainingceter.com</p>
     </Layout>
   )
 }

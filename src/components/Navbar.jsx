@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../assets/react.svg"
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -9,14 +10,13 @@ const Navbar = () => {
         <img src={logo} alt="Logo" className="h-8 w-8 mr-2" />
 
         {/* Brand Text */}
-        <span className="text-white font-semibold text-lg">Soi5 Shop</span>
+        <span className="text-white font-semibold text-lg">NVC Training Center</span>
       </div>
 
       <ul className="flex space-x-4 mr-10">
-        <li><a href="#" className="text-white hover:text-green-400">Home</a></li>
-        <li><a href="#" className="text-white hover:text-green-400">About</a></li>
-        <li><a href="#" className="text-white hover:text-green-400">Products</a></li>
-        <li><a href="#" className="text-white hover:text-green-400">Contact</a></li>
+        <li><NavLink to="/" className="text-white hover:text-green-400">หน้าหลัก</NavLink></li>
+        <li><NavLink to="/about" className="text-white hover:text-green-400">หลักสูตรที่เปิดสอน</NavLink></li>
+        <li><NavLink to="/product" className="text-white hover:text-green-400">ติดต่อ</NavLink></li>
       </ul>
     </nav>
   )
